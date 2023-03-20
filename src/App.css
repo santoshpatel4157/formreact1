@@ -1,0 +1,33 @@
+.main{
+    text-align: center;
+}
+form{
+    text-align: center!important;
+    font-size: 20px;
+    height: 400px;
+    width: 300px;
+    border: 1px solid white;
+   
+}
+.name{
+    padding: 10px 10px;
+    background-color: black;
+    color:aliceblue;
+}
+.email{
+    padding: 10px 10px;
+    background-color: black;
+    color:aliceblue;
+}
+.password{
+    padding: 10px 40px;
+    background-color: black;
+    color:aliceblue;
+}
+.btn{
+    padding: 10px 10px;
+}
+.btn-space {
+    margin-right: 15px;
+}
+
