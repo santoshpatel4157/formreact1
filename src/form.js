@@ -67,8 +67,8 @@ export default function Jsondata() {
           <label
           {...formik.getFieldProps('gender')}> 
        
-              male:<input type="radio" name="gender" value="male" />       
-              Female:<input type="radio" name="gender" value="female"/>
+              male:<input checked={formik.values.gender === "male"} type="radio" name="gender" value="male" />       
+              Female:<input checked={formik.values.gender === "female"} type="radio" name="gender" value="female"/>
          </label>
            </div>     
           
